@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
@@ -14,7 +14,6 @@
 .heading-top {
   display: flex;
   justify-content: space-between;
-
 }
 
 .countries {
@@ -37,6 +36,7 @@
   flex-direction: column;
   top: 0;
 }
+
 .dates-h1 .box {
   display: flex;
   justify-content: center;
@@ -147,6 +147,5 @@
 .autosmall {
   display: flex;
   flex-direction: row;
-  gap: 10rem; 
-
+  gap: 10rem;
 }
