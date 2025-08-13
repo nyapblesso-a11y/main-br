@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -143,3 +143,4 @@ position: relative;
   flex-direction: row;
   gap: 10rem; 
 }
+
