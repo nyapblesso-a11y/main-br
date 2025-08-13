@@ -8,9 +8,10 @@
     border-bottom: 1px solid;
 }
 
-.best{
+.best {
     border: 1px solid;
 }
+
 .heading-top {
     display: flex;
     justify-content: space-between;
@@ -29,22 +30,17 @@
     border: #0c33e4 0.5px solid;
     width: 4%;
     height: 5%;
-
 }
 
 .dates span {
     display: flex;
     flex-direction: column;
     top: 0;
-
-
 }
 
 .dates-h1 .box {
     display: flex;
     justify-content: center;
-
-
 }
 
 .navigation nav ul {
@@ -53,7 +49,6 @@
     justify-content: center;
     gap: 15px;
     list-style: none;
-
 }
 
 .navigation a {
@@ -65,7 +60,9 @@
     padding-left: 3px;
 }
 
-#government {}
+#government { 
+    display: flex;
+}
 
 .bless {
     border-bottom: 1px solid;
@@ -103,8 +100,6 @@
 
 .deal {
     transform: translateY(-180px);
-   
-
 
 }
 
