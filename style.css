@@ -6,23 +6,19 @@
 #heading {
   margin-top: 1.5%;
 }
-
 .first-line {
   width: 75%;
 }
-
 .heading-top {
   display: flex;
   justify-content: space-between;
 }
-
 .countries {
   display: flex;
   flex-direction: row;
   gap: 20px;
   font-size: small;
 }
-
 .bnt-lng {
   border-radius: 5px;
   color: #0c33e4;
@@ -30,18 +26,15 @@
   width: 4%;
   height: 5%;
 }
-
 .dates span {
   display: flex;
   flex-direction: column;
   top: 0;
 }
-
 .dates-h1 .box {
   display: flex;
   justify-content: center;
 }
-
 .navigation nav ul {
   display: flex;
   flex-direction: row;
@@ -49,66 +42,53 @@
   gap: 15px;
   list-style: none;
 }
-
 .navigation a {
   text-decoration: none;
   color: #000;
 }
-
 .navigation img {
   padding-left: 3px;
 }
-
 #government {
   position: relative;
 }
-
 .bless {
   border-bottom: 1px solid;
   width: 300px;
   float: left;
 }
-
 .statement {
   display: flex;
   flex-direction: column;
   justify-content: left;
 }
-
 .statement h1 {
   font-size: 20px;
   width: 18rem;
 }
-
 .statement p {
   font-size: 15px;
   width: 20rem;
   padding-top: 5px;
 }
-
 .img {
   display: flex;
   flex-direction: row;
   justify-content: 50% right;
 }
-
 .statement span {
   font-size: 10px;
   padding-top: 10px;
 }
-
 .deal {
   transform: translateY(-180px);
 }
-
 .deal p {
   font-size: 10px;
 }
-
 .deal h1 {
   font-size: 16px;
 }
-
 .deal span {
   font-size: 10px;
 }
@@ -121,7 +101,7 @@
   font-weight: bold;
   margin-top: 8px;
 }
-.auto h5{
+.auto h5 {
   font-weight: lighter;
   font-size: x-small;
 }
@@ -142,4 +122,3 @@
   flex-direction: row;
   gap: 10rem; 
 }
-
