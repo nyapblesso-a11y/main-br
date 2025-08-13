@@ -1,15 +1,14 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
 
 #heading {
   margin-top: 1.5%;
-  border-bottom: 1px solid;
 }
 
-.best {
-  border: 1px solid;
+.first-line{
+  width: 75%;
 }
 
 .heading-top {
@@ -61,7 +60,7 @@
 }
 
 #government {
-  display: flex;
+position: relative;
 }
 
 .bless {
@@ -112,4 +111,35 @@
 
 .deal span {
   font-size: 10px;
+
+}
+.auto{
+  display: flex;
+  flex-direction: column;
+}
+.auto p{
+  font-size:0.9rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.auto h5{
+  font-weight: lighter;
+  font-size: x-small;
+}
+.small{
+  display: flex;
+  flex-direction: column;
+}
+.small p{
+  font-size:0.9rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.small span{
+  font-size: x-small;
+}
+.autosmall{
+  display: flex;
+  flex-direction: row;
+  gap: 10rem; 
 }
