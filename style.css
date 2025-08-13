@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#heading {
+  margin-top: 1.5%;
+  border-bottom: 1px solid;
+}
+
+.best {
+  border: 1px solid;
+}
+
+.heading-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countries {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: small;
+}
+
+.bnt-lng {
+  border-radius: 5px;
+  color: #0c33e4;
+  border: #0c33e4 0.5px solid;
+  width: 4%;
+  height: 5%;
+}
+
+.dates span {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+}
+
+.dates-h1 .box {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navigation img {
+  padding-left: 3px;
+}
+
+#government {
+  display: flex;
+}
+
+.bless {
+  border-bottom: 1px solid;
+  width: 300px;
+  float: left;
+}
+
+.statement {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.statement h1 {
+  font-size: 20px;
+  width: 18rem;
+}
+
+.statement p {
+  font-size: 15px;
+  width: 20rem;
+  padding-top: 5px;
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+  justify-content: 50% right;
+}
+
+.statement span {
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+.deal {
+  transform: translateY(-180px);
+}
+
+.deal p {
+  font-size: 10px;
+}
+
+.deal h1 {
+  font-size: 16px;
+}
+
+.deal span {
+  font-size: 10px;
+}
